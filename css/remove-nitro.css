@@ -104,3 +104,8 @@ div[class*="newBackgroundTooltipContainer-"] {
 svg[class*="premiumStreamIcon-"] {
     display: none;
 }
+
+/* Force show nitro badges on user profiles */
+a[class*="anchor-"][href="https://discord.com/settings/premium"] {
+    display: inline;
+}
