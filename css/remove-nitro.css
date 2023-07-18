@@ -50,11 +50,6 @@ div[class*="userProfileInner-"] div[class*="premiumIconWrapper-"] {
     display: none;
 }
 
-/* Nitro banner when selecting quality for screen sharing */
-div[class*="qualitySettingsContainer-"] div[class*="upsellBanner-"] {
-    display: none;
-}
-
 /* Nitro button in emoji reactions while screen sharing */
 #emoji-picker-tab-panel div[class*="tooltipContainer-"] {
     display: none
@@ -103,9 +98,4 @@ div[class*="newBackgroundTooltipContainer-"] {
 /* Nitro icon on the top right quality badge on streams */
 svg[class*="premiumStreamIcon-"] {
     display: none;
-}
-
-/* Force show nitro badges on user profiles */
-a[class*="anchor-"][href="https://discord.com/settings/premium"] {
-    display: inline;
 }
